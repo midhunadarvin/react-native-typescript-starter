@@ -6,7 +6,7 @@
 	objectVersion = 46;
 	objects = {
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* ReactTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactTests.m */; };
+		00E356F31AD99517003FC87E /* ColearnMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ColearnMobileTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -14,11 +14,11 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* ReactTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactTests.m */; };
-		6DCE3E012BBA807A04627CA4 /* libPods-ReactTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2536FFCB3974F9ACEC94DA8 /* libPods-ReactTests.a */; };
-		836A2BF1BE49C54522469B81 /* libPods-React-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 093672D707F920F1133254F2 /* libPods-React-tvOS.a */; };
-		B4F5A5843A076C059092E1C0 /* libPods-React.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FB852B81FFD49A0E0B72FE /* libPods-React.a */; };
-		DEC106E50273AC0439A3E770 /* libPods-React-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B550D245145C1FB0B274A65F /* libPods-React-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* ColearnMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ColearnMobileTests.m */; };
+		6DCE3E012BBA807A04627CA4 /* libPods-ColearnMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2536FFCB3974F9ACEC94DA8 /* libPods-ColearnMobileTests.a */; };
+		836A2BF1BE49C54522469B81 /* libPods-ColearnMobile-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 093672D707F920F1133254F2 /* libPods-ColearnMobile-tvOS.a */; };
+		B4F5A5843A076C059092E1C0 /* libPods-ColearnMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FB852B81FFD49A0E0B72FE /* libPods-ColearnMobile.a */; };
+		DEC106E50273AC0439A3E770 /* libPods-ColearnMobile-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B550D245145C1FB0B274A65F /* libPods-ColearnMobile-tvOSTests.a */; };
 		959C02531C084BE08C16B84E /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77E2F3B3BB1A44D79AE9EB06 /* AntDesign.ttf */; };
 		1492E5811155404BBB73971D /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CA4DEC0F8DC480A89A2618B /* Entypo.ttf */; };
 		E1D54D0A933347BD982C16C7 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13B3D94A960F4C2D8BDBD16B /* EvilIcons.ttf */; };
@@ -80,45 +80,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = React;
+			remoteInfo = ColearnMobile;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "React-tvOS";
+			remoteInfo = "ColearnMobile-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* ReactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* ColearnMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColearnMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ReactTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactTests.m; sourceTree = "<group>"; };
-		093672D707F920F1133254F2 /* libPods-React-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-React-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CD0D45DCA859A4400A15AB8 /* Pods-React.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-React.release.xcconfig"; path = "Target Support Files/Pods-React/Pods-React.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* React.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = React.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = React/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = React/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ColearnMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColearnMobileTests.m; sourceTree = "<group>"; };
+		093672D707F920F1133254F2 /* libPods-ColearnMobile-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColearnMobile-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD0D45DCA859A4400A15AB8 /* Pods-ColearnMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColearnMobile.release.xcconfig"; path = "Target Support Files/Pods-ColearnMobile/Pods-ColearnMobile.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ColearnMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColearnMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ColearnMobile/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ColearnMobile/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = React/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = React/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = React/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* React-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "React-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* React-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "React-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3409A5EA4DA3BBC44F6BB0B8 /* Pods-React-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-React-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-React-tvOSTests/Pods-React-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		384C541CC07F86147D85AC4B /* Pods-ReactTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactTests/Pods-ReactTests.debug.xcconfig"; sourceTree = "<group>"; };
-		57DB31B1ABECD4B601178359 /* Pods-ReactTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactTests.release.xcconfig"; path = "Target Support Files/Pods-ReactTests/Pods-ReactTests.release.xcconfig"; sourceTree = "<group>"; };
-		57EA6C3B8930E33E78AE7A39 /* Pods-React.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-React.debug.xcconfig"; path = "Target Support Files/Pods-React/Pods-React.debug.xcconfig"; sourceTree = "<group>"; };
-		985C2DBF79BCB8D003CF52C2 /* Pods-React-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-React-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-React-tvOS/Pods-React-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		9CA9E0F2642F7B33B5333890 /* Pods-React-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-React-tvOS.release.xcconfig"; path = "Target Support Files/Pods-React-tvOS/Pods-React-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		B550D245145C1FB0B274A65F /* libPods-React-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-React-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0B79901C570081FDAAFA9FC /* Pods-React-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-React-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-React-tvOSTests/Pods-React-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		C2536FFCB3974F9ACEC94DA8 /* libPods-ReactTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ColearnMobile/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ColearnMobile/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ColearnMobile/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* ColearnMobile-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ColearnMobile-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* ColearnMobile-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ColearnMobile-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3409A5EA4DA3BBC44F6BB0B8 /* Pods-ColearnMobile-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColearnMobile-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ColearnMobile-tvOSTests/Pods-ColearnMobile-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		384C541CC07F86147D85AC4B /* Pods-ColearnMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColearnMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-ColearnMobileTests/Pods-ColearnMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		57DB31B1ABECD4B601178359 /* Pods-ColearnMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColearnMobileTests.release.xcconfig"; path = "Target Support Files/Pods-ColearnMobileTests/Pods-ColearnMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		57EA6C3B8930E33E78AE7A39 /* Pods-ColearnMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColearnMobile.debug.xcconfig"; path = "Target Support Files/Pods-ColearnMobile/Pods-ColearnMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		985C2DBF79BCB8D003CF52C2 /* Pods-ColearnMobile-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColearnMobile-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ColearnMobile-tvOS/Pods-ColearnMobile-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9CA9E0F2642F7B33B5333890 /* Pods-ColearnMobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColearnMobile-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ColearnMobile-tvOS/Pods-ColearnMobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		B550D245145C1FB0B274A65F /* libPods-ColearnMobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColearnMobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B79901C570081FDAAFA9FC /* Pods-ColearnMobile-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColearnMobile-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ColearnMobile-tvOSTests/Pods-ColearnMobile-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		C2536FFCB3974F9ACEC94DA8 /* libPods-ColearnMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColearnMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F7FB852B81FFD49A0E0B72FE /* libPods-React.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-React.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7FB852B81FFD49A0E0B72FE /* libPods-ColearnMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColearnMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E2F3B3BB1A44D79AE9EB06 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		1CA4DEC0F8DC480A89A2618B /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		13B3D94A960F4C2D8BDBD16B /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
@@ -179,7 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DCE3E012BBA807A04627CA4 /* libPods-ReactTests.a in Frameworks */,
+				6DCE3E012BBA807A04627CA4 /* libPods-ColearnMobileTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,7 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4F5A5843A076C059092E1C0 /* libPods-React.a in Frameworks */,
+				B4F5A5843A076C059092E1C0 /* libPods-ColearnMobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +195,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				836A2BF1BE49C54522469B81 /* libPods-React-tvOS.a in Frameworks */,
+				836A2BF1BE49C54522469B81 /* libPods-ColearnMobile-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,20 +203,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEC106E50273AC0439A3E770 /* libPods-React-tvOSTests.a in Frameworks */,
+				DEC106E50273AC0439A3E770 /* libPods-ColearnMobile-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* ReactTests */ = {
+		00E356EF1AD99517003FC87E /* ColearnMobileTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ReactTests.m */,
+				00E356F21AD99517003FC87E /* ColearnMobileTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ReactTests;
+			path = ColearnMobileTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -227,7 +227,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* React */ = {
+		13B07FAE1A68108700A75B9A /* ColearnMobile */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -238,7 +238,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = React;
+			name = ColearnMobile;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -246,10 +246,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				F7FB852B81FFD49A0E0B72FE /* libPods-React.a */,
-				093672D707F920F1133254F2 /* libPods-React-tvOS.a */,
-				B550D245145C1FB0B274A65F /* libPods-React-tvOSTests.a */,
-				C2536FFCB3974F9ACEC94DA8 /* libPods-ReactTests.a */,
+				F7FB852B81FFD49A0E0B72FE /* libPods-ColearnMobile.a */,
+				093672D707F920F1133254F2 /* libPods-ColearnMobile-tvOS.a */,
+				B550D245145C1FB0B274A65F /* libPods-ColearnMobile-tvOSTests.a */,
+				C2536FFCB3974F9ACEC94DA8 /* libPods-ColearnMobileTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -264,9 +264,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* React */,
+				13B07FAE1A68108700A75B9A /* ColearnMobile */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ReactTests */,
+				00E356EF1AD99517003FC87E /* ColearnMobileTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				9A6EA033929161AE1CDB9E45 /* Pods */,
@@ -280,10 +280,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* React.app */,
-				00E356EE1AD99517003FC87E /* ReactTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* React-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* React-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* ColearnMobile.app */,
+				00E356EE1AD99517003FC87E /* ColearnMobileTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* ColearnMobile-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* ColearnMobile-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -291,14 +291,14 @@
 		9A6EA033929161AE1CDB9E45 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				57EA6C3B8930E33E78AE7A39 /* Pods-React.debug.xcconfig */,
-				0CD0D45DCA859A4400A15AB8 /* Pods-React.release.xcconfig */,
-				985C2DBF79BCB8D003CF52C2 /* Pods-React-tvOS.debug.xcconfig */,
-				9CA9E0F2642F7B33B5333890 /* Pods-React-tvOS.release.xcconfig */,
-				3409A5EA4DA3BBC44F6BB0B8 /* Pods-React-tvOSTests.debug.xcconfig */,
-				C0B79901C570081FDAAFA9FC /* Pods-React-tvOSTests.release.xcconfig */,
-				384C541CC07F86147D85AC4B /* Pods-ReactTests.debug.xcconfig */,
-				57DB31B1ABECD4B601178359 /* Pods-ReactTests.release.xcconfig */,
+				57EA6C3B8930E33E78AE7A39 /* Pods-ColearnMobile.debug.xcconfig */,
+				0CD0D45DCA859A4400A15AB8 /* Pods-ColearnMobile.release.xcconfig */,
+				985C2DBF79BCB8D003CF52C2 /* Pods-ColearnMobile-tvOS.debug.xcconfig */,
+				9CA9E0F2642F7B33B5333890 /* Pods-ColearnMobile-tvOS.release.xcconfig */,
+				3409A5EA4DA3BBC44F6BB0B8 /* Pods-ColearnMobile-tvOSTests.debug.xcconfig */,
+				C0B79901C570081FDAAFA9FC /* Pods-ColearnMobile-tvOSTests.release.xcconfig */,
+				384C541CC07F86147D85AC4B /* Pods-ColearnMobileTests.debug.xcconfig */,
+				57DB31B1ABECD4B601178359 /* Pods-ColearnMobileTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -368,9 +368,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ReactTests */ = {
+		00E356ED1AD99517003FC87E /* ColearnMobileTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ColearnMobileTests" */;
 			buildPhases = (
 				AC8DC0FB0DE816546EAF71BE /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -382,55 +382,55 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ReactTests;
-			productName = ReactTests;
-			productReference = 00E356EE1AD99517003FC87E /* ReactTests.xctest */;
+			name = ColearnMobileTests;
+			productName = ColearnMobileTests;
+			productReference = 00E356EE1AD99517003FC87E /* ColearnMobileTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* React */ = {
+		13B07F861A680F5B00A75B9A /* ColearnMobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "React" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ColearnMobile" */;
 			buildPhases = (
 				6804EB1D4AFCDE14AAA807AB /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
-				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00DD1BFF1BD5951E006B06BC /* Bundle ColearnMobile Native code and images */,
 				066C75C7BB5DD2CE898E7BF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = React;
-			productName = React;
-			productReference = 13B07F961A680F5B00A75B9A /* React.app */;
+			name = ColearnMobile;
+			productName = ColearnMobile;
+			productReference = 13B07F961A680F5B00A75B9A /* ColearnMobile.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* React-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* ColearnMobile-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "React-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ColearnMobile-tvOS" */;
 			buildPhases = (
 				AD51006FCFFBB89CEF140B1E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
-				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle ColearnMobile Native Code And Images */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "React-tvOS";
-			productName = "React-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* React-tvOS.app */;
+			name = "ColearnMobile-tvOS";
+			productName = "ColearnMobile-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* ColearnMobile-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* React-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* ColearnMobile-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "React-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ColearnMobile-tvOSTests" */;
 			buildPhases = (
 				1AB200748CE412F033082CB4 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -442,9 +442,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "React-tvOSTests";
-			productName = "React-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* React-tvOSTests.xctest */;
+			name = "ColearnMobile-tvOSTests";
+			productName = "ColearnMobile-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* ColearnMobile-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -471,7 +471,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "React" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ColearnMobile" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -484,10 +484,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* React */,
-				00E356ED1AD99517003FC87E /* ReactTests */,
-				2D02E47A1E0B4A5D006451C7 /* React-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* React-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* ColearnMobile */,
+				00E356ED1AD99517003FC87E /* ColearnMobileTests */,
+				2D02E47A1E0B4A5D006451C7 /* ColearnMobile-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* ColearnMobile-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -580,14 +580,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+		00DD1BFF1BD5951E006B06BC /* Bundle ColearnMobile Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Bundle React Native code and images";
+			name = "Bundle ColearnMobile Native code and images";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -600,7 +600,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-React/Pods-React-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ColearnMobile/Pods-ColearnMobile-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -639,7 +639,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-React/Pods-React-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ColearnMobile/Pods-ColearnMobile-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1AB200748CE412F033082CB4 /* [CP] Check Pods Manifest.lock */ = {
@@ -657,21 +657,21 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-React-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ColearnMobile-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle ColearnMobile Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Bundle React Native Code And Images";
+			name = "Bundle ColearnMobile Native Code And Images";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -693,7 +693,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-React-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ColearnMobile-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -715,7 +715,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ColearnMobileTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -737,7 +737,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-React-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ColearnMobile-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -789,7 +789,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ReactTests.m in Sources */,
+				00E356F31AD99517003FC87E /* ColearnMobileTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -815,7 +815,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* ReactTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* ColearnMobileTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -824,12 +824,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* React */;
+			target = 13B07F861A680F5B00A75B9A /* ColearnMobile */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* React-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* ColearnMobile-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -841,7 +841,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = React;
+			path = ColearnMobile;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -849,14 +849,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 384C541CC07F86147D85AC4B /* Pods-ReactTests.debug.xcconfig */;
+			baseConfigurationReference = 384C541CC07F86147D85AC4B /* Pods-ColearnMobileTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ReactTests/Info.plist;
+				INFOPLIST_FILE = ColearnMobileTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -866,17 +866,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/React.app/React";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColearnMobile.app/ColearnMobile";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57DB31B1ABECD4B601178359 /* Pods-ReactTests.release.xcconfig */;
+			baseConfigurationReference = 57DB31B1ABECD4B601178359 /* Pods-ColearnMobileTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ReactTests/Info.plist;
+				INFOPLIST_FILE = ColearnMobileTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -886,18 +886,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/React.app/React";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColearnMobile.app/ColearnMobile";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57EA6C3B8930E33E78AE7A39 /* Pods-React.debug.xcconfig */;
+			baseConfigurationReference = 57EA6C3B8930E33E78AE7A39 /* Pods-ColearnMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = React/Info.plist;
+				INFOPLIST_FILE = ColearnMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -905,18 +905,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = React;
+				PRODUCT_NAME = ColearnMobile;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CD0D45DCA859A4400A15AB8 /* Pods-React.release.xcconfig */;
+			baseConfigurationReference = 0CD0D45DCA859A4400A15AB8 /* Pods-ColearnMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = React/Info.plist;
+				INFOPLIST_FILE = ColearnMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -924,14 +924,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = React;
+				PRODUCT_NAME = ColearnMobile;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 985C2DBF79BCB8D003CF52C2 /* Pods-React-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 985C2DBF79BCB8D003CF52C2 /* Pods-ColearnMobile-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -942,14 +942,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "React-tvOS/Info.plist";
+				INFOPLIST_FILE = "ColearnMobile-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.React-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ColearnMobile-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -959,7 +959,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CA9E0F2642F7B33B5333890 /* Pods-React-tvOS.release.xcconfig */;
+			baseConfigurationReference = 9CA9E0F2642F7B33B5333890 /* Pods-ColearnMobile-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -970,14 +970,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "React-tvOS/Info.plist";
+				INFOPLIST_FILE = "ColearnMobile-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.React-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ColearnMobile-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -987,7 +987,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3409A5EA4DA3BBC44F6BB0B8 /* Pods-React-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 3409A5EA4DA3BBC44F6BB0B8 /* Pods-ColearnMobile-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -997,24 +997,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "React-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "ColearnMobile-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.React-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ColearnMobile-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/React-tvOS.app/React-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColearnMobile-tvOS.app/ColearnMobile-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0B79901C570081FDAAFA9FC /* Pods-React-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = C0B79901C570081FDAAFA9FC /* Pods-ColearnMobile-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1024,17 +1024,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "React-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "ColearnMobile-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.React-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ColearnMobile-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/React-tvOS.app/React-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColearnMobile-tvOS.app/ColearnMobile-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1141,7 +1141,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ColearnMobileTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1150,7 +1150,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "React" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ColearnMobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1159,7 +1159,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "React-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ColearnMobile-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1168,7 +1168,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "React-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ColearnMobile-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1177,7 +1177,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "React" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ColearnMobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

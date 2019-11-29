@@ -8,17 +8,17 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-#import <React/RCTLog.h>
-#import <React/RCTRootView.h>
+#import <ColearnMobile/RCTLog.h>
+#import <ColearnMobile/RCTRootView.h>
 
 #define TIMEOUT_SECONDS 600
-#define TEXT_TO_LOOK_FOR @"Welcome to React"
+#define TEXT_TO_LOOK_FOR @"Welcome to ColearnMobile"
 
-@interface ReactTests : XCTestCase
+@interface ColearnMobileTests : XCTestCase
 
 @end
 
-@implementation ReactTests
+@implementation ColearnMobileTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

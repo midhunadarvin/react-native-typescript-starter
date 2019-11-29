@@ -1,34 +1,34 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'React' do
-  # Pods for React
+target 'ColearnMobile' do
+  # Pods for ColearnMobile
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
-  pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
+  pod 'FBColearnMobileNativeSpec', :path => "../node_modules/react-native/Libraries/FBColearnMobileNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
   pod 'RCTTypeSafety', :path => "../node_modules/react-native/Libraries/TypeSafety"
-  pod 'React', :path => '../node_modules/react-native/'
-  pod 'React-Core', :path => '../node_modules/react-native/'
-  pod 'React-CoreModules', :path => '../node_modules/react-native/React/CoreModules'
-  pod 'React-Core/DevSupport', :path => '../node_modules/react-native/'
-  pod 'React-RCTActionSheet', :path => '../node_modules/react-native/Libraries/ActionSheetIOS'
-  pod 'React-RCTAnimation', :path => '../node_modules/react-native/Libraries/NativeAnimation'
-  pod 'React-RCTBlob', :path => '../node_modules/react-native/Libraries/Blob'
-  pod 'React-RCTImage', :path => '../node_modules/react-native/Libraries/Image'
-  pod 'React-RCTLinking', :path => '../node_modules/react-native/Libraries/LinkingIOS'
-  pod 'React-RCTNetwork', :path => '../node_modules/react-native/Libraries/Network'
-  pod 'React-RCTSettings', :path => '../node_modules/react-native/Libraries/Settings'
-  pod 'React-RCTText', :path => '../node_modules/react-native/Libraries/Text'
-  pod 'React-RCTVibration', :path => '../node_modules/react-native/Libraries/Vibration'
-  pod 'React-Core/RCTWebSocket', :path => '../node_modules/react-native/'
+  pod 'ColearnMobile', :path => '../node_modules/react-native/'
+  pod 'ColearnMobile-Core', :path => '../node_modules/react-native/'
+  pod 'ColearnMobile-CoreModules', :path => '../node_modules/react-native/ColearnMobile/CoreModules'
+  pod 'ColearnMobile-Core/DevSupport', :path => '../node_modules/react-native/'
+  pod 'ColearnMobile-RCTActionSheet', :path => '../node_modules/react-native/Libraries/ActionSheetIOS'
+  pod 'ColearnMobile-RCTAnimation', :path => '../node_modules/react-native/Libraries/NativeAnimation'
+  pod 'ColearnMobile-RCTBlob', :path => '../node_modules/react-native/Libraries/Blob'
+  pod 'ColearnMobile-RCTImage', :path => '../node_modules/react-native/Libraries/Image'
+  pod 'ColearnMobile-RCTLinking', :path => '../node_modules/react-native/Libraries/LinkingIOS'
+  pod 'ColearnMobile-RCTNetwork', :path => '../node_modules/react-native/Libraries/Network'
+  pod 'ColearnMobile-RCTSettings', :path => '../node_modules/react-native/Libraries/Settings'
+  pod 'ColearnMobile-RCTText', :path => '../node_modules/react-native/Libraries/Text'
+  pod 'ColearnMobile-RCTVibration', :path => '../node_modules/react-native/Libraries/Vibration'
+  pod 'ColearnMobile-Core/RCTWebSocket', :path => '../node_modules/react-native/'
 
-  pod 'React-cxxreact', :path => '../node_modules/react-native/ReactCommon/cxxreact'
-  pod 'React-jsi', :path => '../node_modules/react-native/ReactCommon/jsi'
-  pod 'React-jsiexecutor', :path => '../node_modules/react-native/ReactCommon/jsiexecutor'
-  pod 'React-jsinspector', :path => '../node_modules/react-native/ReactCommon/jsinspector'
-  pod 'ReactCommon/jscallinvoker', :path => "../node_modules/react-native/ReactCommon"
-  pod 'ReactCommon/turbomodule/core', :path => "../node_modules/react-native/ReactCommon"
-  pod 'Yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+  pod 'ColearnMobile-cxxreact', :path => '../node_modules/react-native/ColearnMobileCommon/cxxreact'
+  pod 'ColearnMobile-jsi', :path => '../node_modules/react-native/ColearnMobileCommon/jsi'
+  pod 'ColearnMobile-jsiexecutor', :path => '../node_modules/react-native/ColearnMobileCommon/jsiexecutor'
+  pod 'ColearnMobile-jsinspector', :path => '../node_modules/react-native/ColearnMobileCommon/jsinspector'
+  pod 'ColearnMobileCommon/jscallinvoker', :path => "../node_modules/react-native/ColearnMobileCommon"
+  pod 'ColearnMobileCommon/turbomodule/core', :path => "../node_modules/react-native/ColearnMobileCommon"
+  pod 'Yoga', :path => '../node_modules/react-native/ColearnMobileCommon/yoga'
 
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
@@ -36,7 +36,7 @@ target 'React' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
-  target 'ReactTests' do
+  target 'ColearnMobileTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -44,10 +44,10 @@ target 'React' do
   use_native_modules!
 end
 
-target 'React-tvOS' do
-  # Pods for React-tvOS
+target 'ColearnMobile-tvOS' do
+  # Pods for ColearnMobile-tvOS
 
-  target 'React-tvOSTests' do
+  target 'ColearnMobile-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

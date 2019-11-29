@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D2A28121D9B038B00D4039D"
-               BuildableName = "libReact.a"
-               BlueprintName = "React-tvOS"
-               ReferencedContainer = "container:../node_modules/react-native/React/React.xcodeproj">
+               BlueprintIdentifier = "83CBBA2D1A601D0E00E9B192"
+               BuildableName = "libColearnMobile.a"
+               BlueprintName = "ColearnMobile"
+               ReferencedContainer = "container:../node_modules/react-native/ColearnMobile/ColearnMobile.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "React-tvOS.app"
-               BlueprintName = "React-tvOS"
-               ReferencedContainer = "container:React.xcodeproj">
+               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+               BuildableName = "ColearnMobile.app"
+               BlueprintName = "ColearnMobile"
+               ReferencedContainer = "container:ColearnMobile.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -42,10 +42,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "React-tvOSTests.xctest"
-               BlueprintName = "React-tvOSTests"
-               ReferencedContainer = "container:React.xcodeproj">
+               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
+               BuildableName = "ColearnMobileTests.xctest"
+               BlueprintName = "ColearnMobileTests"
+               ReferencedContainer = "container:ColearnMobile.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -60,20 +60,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "React-tvOSTests.xctest"
-               BlueprintName = "React-tvOSTests"
-               ReferencedContainer = "container:React.xcodeproj">
+               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
+               BuildableName = "ColearnMobileTests.xctest"
+               BlueprintName = "ColearnMobileTests"
+               ReferencedContainer = "container:ColearnMobile.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "React-tvOS.app"
-            BlueprintName = "React-tvOS"
-            ReferencedContainer = "container:React.xcodeproj">
+            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+            BuildableName = "ColearnMobile.app"
+            BlueprintName = "ColearnMobile"
+            ReferencedContainer = "container:ColearnMobile.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "React-tvOS.app"
-            BlueprintName = "React-tvOS"
-            ReferencedContainer = "container:React.xcodeproj">
+            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+            BuildableName = "ColearnMobile.app"
+            BlueprintName = "ColearnMobile"
+            ReferencedContainer = "container:ColearnMobile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -112,10 +112,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "React-tvOS.app"
-            BlueprintName = "React-tvOS"
-            ReferencedContainer = "container:React.xcodeproj">
+            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+            BuildableName = "ColearnMobile.app"
+            BlueprintName = "ColearnMobile"
+            ReferencedContainer = "container:ColearnMobile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

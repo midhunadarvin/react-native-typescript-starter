@@ -1,4 +1,4 @@
-package com.react;
+package com.colearnmobile;
 
 import android.app.Application;
 import android.content.Context;
